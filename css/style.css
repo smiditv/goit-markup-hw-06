@@ -1,5 +1,5 @@
 /* ________HEADER_________ */
-.header {
+/* .header {
   padding-top: 32px;
 
   border: 1px solid #ececec;
@@ -72,7 +72,7 @@
   margin-right: 50px;
 }
 /* ________CONTACTS_________ */
-.contacts {
+/* .contacts {
   margin-left: 50px;
 }
 .contacts {
@@ -97,9 +97,10 @@
   height: 16px;
   width: 20px;
   margin-right: 10px;
-}
+} */
+
 /* __________________CUSTOM ________________*/
-a {
+/* a {
   text-decoration: none;
 }
 img {
@@ -133,30 +134,30 @@ h2 {
   margin-bottom: 50px;
   text-align: center;
   font-size: 36px;
-}
-.hidden {
+} */
+/* .hidden {
   display: none;
-}
+} */
 
-.address {
+/* .address {
   color: #ffffff;
-}
+} */
 /* __________________CONTAINER_____________ */
-.container {
+/* .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-}
-body {
+} */
+/* .body {
   color: rgba(33, 33, 33, 1);
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-}
+} */
 
 /* _______BUTTON_______ */
-.button-s {
+/* .button-s {
   display: flex;
   justify-content: center;
 }
@@ -186,9 +187,9 @@ body {
 .button :hover {
   color: #2196f3;
   background-color: #2196f3;
-}
+} */
 /* _____________________HERO__________ */
-.hero-button:hover,
+/* .hero-button:hover,
 .hero-button:focus {
   background-color: #188ce8;
 }
@@ -225,9 +226,9 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.3;
-}
+} */
 /* ___________________QUALITY_______________ */
-.icone-one::before {
+/* .icone-one::before {
   display: block;
   content: '';
   height: 120px;
@@ -288,9 +289,9 @@ body {
   display: flex;
   margin-bottom: 94px;
   margin-top: 94px;
-}
+} */
 /* _______________WORK_______________ */
-.work {
+/* .work {
   display: flex;
   padding-bottom: 94px;
 }
@@ -317,10 +318,10 @@ body {
   text-transform: uppercase;
   background-color: rgba(47, 48, 58, 0.8);
   color: #ffffff;
-}
+} */
 
 /* __________________TEAM_______________ */
-.team {
+/* .team {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
@@ -340,10 +341,10 @@ body {
   padding-top: 30px;
   background-color: #ffffff;
   text-align: center;
-}
+} */
 
 /* ________________LOGO-HEADER___________ */
-.logo-header {
+/* .logo-header {
   display: block;
   padding-bottom: 32px;
   margin-right: 95px;
@@ -352,18 +353,18 @@ body {
 }
 .logo-color-header {
   color: #00000f;
-}
+} */
 /* ________________LOGO-FOOTER ____________*/
-.logo-footer {
+/* .logo-footer {
   font-size: 26px;
   color: #2196f3;
   background: #2f303a;
 }
 .logo-color-footer {
   color: #ffffff;
-}
+} */
 /* __________________PARTY________________ */
-.party {
+/* .party {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -405,9 +406,9 @@ body {
 }
 .party-socials-item:not(:first-child) {
   margin-left: 10px;
-}
+} */
 /* __________________PORTFOLIO____________ */
-.flex-element {
+/* .flex-element {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
@@ -470,17 +471,17 @@ body {
 .master-item-wrap {
   position: relative;
   overflow: hidden;
-}
+} */
 
 /* _________________________CLIENT__________________ */
-.client {
+/* .client {
   display: flex;
-}
-.client-container {
+} */
+/* .client-container {
   margin-top: 94px;
   margin-bottom: 94px;
-}
-.logo:not(:last-child) {
+} */
+/* .logo:not(:last-child) {
   margin-right: 30px;
 }
 .logo-icon {
@@ -512,9 +513,9 @@ body {
 .link-logo:focus {
   border: 1px solid #2196f3;
   color: #2196f3;
-}
+} */
 /* ____________________FOOTER______________ */
-.footer {
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
@@ -541,9 +542,9 @@ body {
 }
 .address-footer li:not(:last-child) {
   margin-bottom: 9px;
-}
+} */
 /* ________________________________________FOOTER ITEM______________________ */
-.footer-social-list {
+/* .footer-social-list {
   display: flex;
 }
 .follow {
@@ -583,9 +584,9 @@ body {
 .footer-social-link:hover .footer-social-icon,
 .footer-social-link:focus .footer-social-icon {
   fill: currentColor;
-}
+} */
 /* _________________________--FOOTER EMAIL___________________ */
-.email-footer {
+/* .email-footer {
   margin-left: 93px;
 }
 
@@ -635,9 +636,9 @@ body {
 }
 .footer-button-pos {
   padding-top: 47px;
-}
+} */
 /* _______________________________________ Backdrop________________ */
-.backdrop {
+/* .backdrop {
   position: fixed;
   background-color: rgba(175, 177, 184, 0.5);
   top: 0;
@@ -795,7 +796,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
-}
+} */
 
 /* _________________SECTION_______________ */
 /* .section {
@@ -807,4 +808,13 @@ body {
 
 /*   цвет основного текста #212121*/
 /* вторичный цвет #757575 */
-/* акцент #2196F3  */ ;
+/* акцент #2196F3  */
+/* &::after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 4px;
+    background-color: #2196f3;
+    border-radius: 2px;
+  } */
